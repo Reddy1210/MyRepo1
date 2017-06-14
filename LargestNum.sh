@@ -7,10 +7,10 @@ Num2=$2
 Num3=$3
 if [ $Num1 -gt $Num2 -a $Num1 -gt $Num3 ]
 then
-echo "$Num1 is greater"
+echo $Num1 "is greater"
 elif [ $Num2 -gt $Num3 ]
 then
-echo "$Num2 is greater"
+echo $Num2 "is greater"
 else
-echo "$Num3 is greater"
+echo $Num3 "is greater"
 fi
