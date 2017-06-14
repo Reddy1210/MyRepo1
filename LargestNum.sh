@@ -1,6 +1,6 @@
 #!/bin/sh
 # Reading values from the user
-echo "Please provide the values"
+#echo "Please provide the values"
 #read Num1 Num2 Num3
 Num1=$1
 Num2=$2
